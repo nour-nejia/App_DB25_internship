@@ -2,7 +2,7 @@
 
 ---
 
-## Overview
+##  Overview
 
 The **DB25** project was developed during my internship at **Ampere Software Technology**.  
 It aims to simplify the management and analysis of **Electronic Control Unit (ECU)** configuration files used in vehicles.  
@@ -21,7 +21,7 @@ These files, in **BLOB** or **XML** format, contain essential information for ve
 
 ---
 
-## Technologies Used
+##  Technologies Used
 
 - **Python** – Core programming language  
 - **CustomTkinter** – GUI framework  
@@ -37,7 +37,7 @@ These files, in **BLOB** or **XML** format, contain essential information for ve
 
 ### Windows Installer (Recommended)
 
-1. Download the latest installer (`DB25_installer.exe`) from the [Releases](https://github.com/your-username/DB25/releases) page
+1. Download the latest installer (`DB25_installer.exe`)
 2. Run the installer and follow the installation wizard
 3. Launch DB25 from Start Menu or Desktop shortcut
 
@@ -56,4 +56,4 @@ python main.py
 
 ---
 
-**⭐ Developed during internship at Ampere Software Technology**
+**Developed during internship at Ampere Software Technology**
