@@ -1,60 +1,53 @@
-DB25 – ECU Configuration File Parsing and Analysis Tool
-Overview
+# DB25 – ECU Configuration File Parsing and Analysis Tool
 
-The DB25 project was developed during my internship at Ampere Software Technology.
-It aims to simplify the management and analysis of Electronic Control Unit (ECU) configuration files used in vehicles.
-These files, in BLOB or XML format, contain essential information for vehicle diagnostics and configuration.
+---
 
-Features
+## Overview
 
-Import and parse XML configuration files.
+**DB25** was developed during my internship at **Ampere Software Technology**.  
+It simplifies management and analysis of **Electronic Control Unit (ECU)** configuration files used in vehicles.  
+Supported file formats: **BLOB** and **XML**.
 
-Search for specific DIDs.
+---
 
-Extract BLOB files from the database.
+## Features
 
-User-friendly interface built with CustomTkinter.
+- Import and parse XML configuration files  
+- Search for specific DIDs  
+- Extract BLOB files from the database  
+- User-friendly GUI built with CustomTkinter  
+- Fast and reliable parsing  
+- Portable Windows executable (Nuitka + Inno Setup)
 
-Fast and reliable parsing.
+---
 
-Portable executable for Windows (via Nuitka + Inno Setup).
+## Technologies Used
 
-Technologies Used
+- **Python**  
+- **CustomTkinter**  
+- **lxml** & **xml.etree.ElementTree**  
+- **Nuitka**  
+- **Inno Setup**  
+- **Git / GitHub**  
+- **Lucidchart**
 
-Python – Core programming language
+---
 
-CustomTkinter – GUI framework
+## Installation
 
-lxml & xml.etree.ElementTree – XML parsing
+### Windows Installer (Recommended)
 
-Nuitka – Python to executable compilation
+Download the latest stable release from the Releases page and run the installer:
 
-Inno Setup – Windows installer packaging
+**https://github.com/nour-nejia/App_DB25_internship/releases/tag/v1.0.0**
 
-Git/GitHub – Version control
+1. Download `DB25_installer.exe` from the release page  
+2. Run the installer and follow the wizard  
+3. Launch DB25 from the Start Menu or Desktop shortcut
 
-Lucidchart – Functional modeling and diagrams
+### Run from Source
 
-Installation
-Windows Installer (Recommended)
-
-You can directly download the latest stable version from the Releases page:
-https://github.com/nour-nejia/App_DB25_internship/releases/tag/v1.0.0
-
-Download the installer (DB25_installer.exe) from the release page
-
-Run the installer and follow the installation wizard
-
-Launch DB25 from the Start Menu or Desktop shortcut
-
-Run from Source
-
-Clone the repository:
-
-git clone https://github.com/your-username/DB25.git
-cd DB25
-
-
-Run the application:
-
-python main.py
+1. Clone the repository:
+```bash
+git clone https://github.com/nour-nejia/App_DB25_internship.git
+cd App_DB25_internship
